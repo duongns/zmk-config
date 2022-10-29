@@ -21,6 +21,7 @@
                                             &mo LWR   &kp SPACE           &kp RET  &mo RSE
                                                       &kp HOME            &kp DEL
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
@@ -32,6 +33,7 @@
                                              &trans &trans                &trans &mo ADJ
                                                     &trans                &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         raise_layer {
@@ -43,6 +45,7 @@
                                              &mo ADJ &trans               &trans &trans
                                                      &trans               &trans
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         adjust_layer {
@@ -54,6 +57,7 @@
                                                       &none &none             &none &none
                                                             &none             &none
             >;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
     };
 };
