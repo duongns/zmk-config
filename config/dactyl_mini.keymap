@@ -18,7 +18,7 @@
                 &kp LSHFT &kp A  &kp S  &kp D  &kp F  &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &kp LCTRL &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp BSLH
                                  &kp LBKT &kp RBKT                                      &kp PLUS &kp EQUAL
-                                            &mo LWR   &kp SPACE           &kp RET  &mo RSE
+                                            &mo LWR   &kp RET             &kp SPACE  &mo RSE
                                                       &kp HOME            &kp DEL
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
