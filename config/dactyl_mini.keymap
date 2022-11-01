@@ -17,7 +17,7 @@
                 &kp TAB   &kp Q  &kp W  &kp E  &kp R  &kp T               &kp Y  &kp U  &kp I     &kp O   &kp P    &kp EQUAL
                 &kp LCTRL &kp A  &kp S  &kp D  &kp F  &kp G               &kp H  &kp J  &kp K     &kp L   &kp SEMI &kp SQT
                 &kp LSHFT &kp Z  &kp X  &kp C  &kp V  &kp B               &kp N  &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                                 &kp LBKT &kp RBKT                                      &kp BSPC &kp DEL
+                                 &kp LALT &kp LGUI                                      &kp BSPC &kp DEL
                                             &mo LWR   &kp RET             &kp SPACE  &mo RSE
                                                       &kp SPACE           &kp RET
             >;
@@ -26,9 +26,9 @@
 
         lower_layer {
             bindings = <
-                &kp ESC  &trans &trans &kp N7 &kp N8 &kp N9               &trans &trans   &trans    &trans   &trans    &trans
-                &kp CAPS  &trans &trans &kp N4 &kp N5 &kp N6              &trans &trans   &trans    &trans   &trans    &trans
-                &trans  &trans &trans &kp N1 &kp N2 &kp N3                &trans &trans   &kp LBKT  &kp RBKT &trans    &trans
+                &kp ESC  &trans &trans &kp N7 &kp N8 &kp N9               &KP F1 &KP F2   &KP F3    &KP F4    &KP F5    &KP F6
+                &kp CAPS &trans &trans &kp N4 &kp N5 &kp N6               &KP F7 &KP F8   &KP F9    &KP F10   &KP F11   &KP F12
+                &trans   &trans &trans &kp N1 &kp N2 &kp N3               &trans &trans   &trans    &trans    &trans    &trans
                                &trans &kp N0                                              &trans &trans
                                              &trans &trans                &trans &mo ADJ
                                                     &trans                &trans
@@ -40,7 +40,7 @@
             bindings = <
                 &trans  &trans &trans &trans &trans &trans                &trans &trans &kp UP &kp N9 &kp N0 &kp K_VOL_UP
                 &trans  &trans &trans &trans &trans &trans                &trans &kp LEFT &kp DOWN &kp RIGHT &trans &kp K_VOL_DN
-                &trans  &trans &trans &trans &trans &trans                &trans &trans &trans &trans &kp BSLH &kp K_MUTE
+                &trans  &trans &trans &trans &trans &trans                &trans &trans  &kp LBKT  &kp RBKT &kp BSLH &kp K_MUTE
                                &trans &trans                                            &trans &trans
                                              &mo ADJ &trans               &trans &trans
                                                      &trans               &trans
