@@ -14,10 +14,10 @@
 
         default_layer {
             bindings = <
-&kp TAB    &kp Q  &kp W     &kp E     &kp R    &kp T       &kp Y      &kp U    &kp I      &kp O    &kp P     &kp EQUAL
-&kp LCTRL  &kp A  &kp S     &kp D     &kp F    &kp G       &kp H      &kp J    &kp K      &kp L    &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z  &kp X     &kp C     &kp V    &kp B       &kp N      &kp M    &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
-                  &kp LALT  &kp LGUI                                           &kp BSPC   &kp DEL
+&kp TAB    &kp Q  &kp W     &kp E     &kp R    &kp T       &kp Y      &kp U    &kp I          &kp O    &kp P     &kp BACKSPACE
+&kp LCTRL  &kp A  &kp S     &kp D     &kp F    &kp G       &kp H      &kp J    &kp K          &kp L    &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z  &kp X     &kp C     &kp V    &kp B       &kp N      &kp M    &kp COMMA      &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                  &kp LALT  &kp LGUI                                           &kp RIGHT_ALT  &kp DEL
                                       &mo LWR  &kp RET     &kp SPACE  &mo RSE
                                                &kp HOME    &kp END
             >;
@@ -35,7 +35,7 @@
                                                       &trans    &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
         };
 
         raise_layer {
